@@ -1,0 +1,53 @@
+.listContent{
+    margin: 0rem;
+    padding: 0rem;
+}
+.listColorCurve{
+    background-color:  #FFE87C;
+    padding-bottom: 4.5rem;
+    border-radius: 0 0 50% 50%; 
+    color: #2C3539;
+}
+.listHeading{
+    font-size:1.8rem;
+    padding:1rem 1rem 1rem 2rem;
+    font-weight: 600;
+    
+}
+.listAddBar{
+}
+.input-bar{
+    margin-left:2rem;
+    /* padding: 0.5rem; */
+    font-size: 1.1rem;
+    
+}
+.add-button{
+    margin-right: 2rem;
+}
+.button-main{
+    /* padding: 1rem; */
+    font-size: 1.1rem;
+}
+.listTask{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top:1rem;
+}
+.task-item{
+    font-size:1.2rem;
+    
+}
+.list-content{
+    margin-right:0.9rem;
+}
+.task-button{
+    margin-left:0.1rem;
+    margin-right:0.2rem;
+}
+.tick{
+    margin-right:0.1rem;
+}
+.cross{
+    margin-left:0.1rem;
+}
