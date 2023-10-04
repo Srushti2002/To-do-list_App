@@ -2,13 +2,13 @@
 .app-main{
   justify-content: center;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   /* font-family: 'Nanum Pen Script', cursive; */
   /* background-color:brown; */
   /* height: 40rem;
   overflow: 'auto'; */
   /* font-family: 'Kalam', cursive; */
-  /* font-family: 'Gloria Hallelujah', cursive;
+   font-family: 'Gloria Hallelujah', cursive;
   /* font-family: 'Handlee', cursive; */
   /* min-height: 80vh; */
   /* background-color:beige; */
