@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/list.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus, faCheck, faTrash } from '@fortawesome/free-solid-svg-icons';
+import useLocalStorage from '../hooks/useLocalStorage';
+import { faCheck, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function List() {
 
-    const [task, setTask] = React.useState([]);
+    const [task, setTask] = useLocalStorage('taskList', []);
     const [newTask, setNewTask] = React.useState('');
 
     const addTask = () => {

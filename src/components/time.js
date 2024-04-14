@@ -26,20 +26,16 @@ export default function Time() {
     return(
          <div className="row">
             <div className="subContent"> 
-            {/* col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  */}
             
             <div className="row">
             <div className="text-center col-5">
             <Svguser />   
-            {/* <FontAwesomeIcon icon="fa-duotone fa-user" style={{"--fa-primary-color": "#504e4e", "--fa-secondary-color": "#d1c785",}} /> */}
             </div>
             <div className="text-center col-7 timeContent">
                 <div className="cTagLine">
-                {/* Turning Tasks into Triumphs */}
                 {currentTime}
                 </div>
                 <div className="cDateTime">
-                {/* {currentTime} || {currentDay} || {currentDate}  */}
                 {currentDay} , {currentDate} 
                 </div>
             </div>
